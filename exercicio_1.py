@@ -2,7 +2,7 @@
 # para imprimir os números pares de 0 a 100 e a soma destes números.
 
 soma = 0
-for i in range(0, 101):
+for i in range(1, 91):
   valor = i%2
   if valor == 0:
     print(i)
